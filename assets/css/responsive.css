@@ -1,0 +1,83 @@
+
+@media (max-width: 1278px) {
+
+    section.veille { padding: 15px; }
+
+
+    li { margin-left: -5px; }
+
+    .theme-notif, .switch-btn, .menu-btn, .home-btn {
+        bottom: -5px;
+    }
+    .theme-notif, .switch-btn, .menu-btn, .home-btn i {
+        font-size: 14px;
+    }
+
+    .theme-notif {
+        background: var(--bg-invert);
+        color: var(--bg);
+        left: 60px;
+        bottom: 10px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 100px;
+    }
+
+    .columns.about { display: inline; }
+    .columns.about .column { padding: 20px 0; }
+    .columns.about .column .card { margin: 0; }
+
+    .level-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        display: grid;
+        gap: 20px;
+    }
+    .level-item { width: 100%; }
+
+    .badge-grid {
+        grid-template-columns: repeat(3, auto);
+        justify-content: space-around;
+        border-radius: 40px;
+        padding: 15px 20px;
+        max-width: 60%;
+    }
+    .badge-item:last-child { display: none; }
+
+    .button::before, .button::after {
+        background-image: none;
+    }
+
+    .info {
+        font-size: 10px;
+        right: -10px;
+    }
+
+    .field.is-grouped { display: none; }
+
+    .bottom { font-size: 0.8em; }
+}
+
+@media (max-width: 600px) {
+    .section { padding: 3rem 1rem; }
+    .section-heading { margin-bottom: 1em; }
+
+    .level-grid { display: block; }
+    .level-item { margin-bottom: 20px; }
+
+    .card-content:not(.skills-content) {
+        padding: 20px 10px;
+    }
+    .profile, .skills, .profession {
+        min-width: auto;
+    }
+
+    .table-profile td { display: inline-block; }
+
+    .badge-grid { max-width: 90%; }
+    .badge-item::before { display: none; }
+
+    .info { font-size: 12px; }
+
+    .chat td:nth-child(2) { padding-left: 45px; }
+}
