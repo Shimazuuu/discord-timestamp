@@ -14,7 +14,7 @@
     --menu-chat-color: #444;
     --menu-chat-placeholder-color: #444444aa;
     --input-border-focus: #4258ff;
-    --icon-sparkles: url('/assets/icons/sparkles-light.svg');
+    --icon-sparkles: url('/assets/sparkles-light.svg');
     --check: #21da86;
     --error: #ff4444;
 }
@@ -34,7 +34,7 @@
     --menu-chat-color: #aaa;
     --menu-chat-placeholder-color: #666666aa;
     --input-border-focus: #4258ff;
-    --icon-sparkles: url('/assets/icons/sparkles-dark.svg');
+    --icon-sparkles: url('/assets/sparkles-dark.svg');
     --check: #30ca85;
     --error: #ff6666;
 }
